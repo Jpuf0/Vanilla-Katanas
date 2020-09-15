@@ -1,0 +1,10 @@
+{
+  "itemGroup.vanilla-katanas.group": "Vanilla Katanas",
+
+  "item.vanilla-katanas.diamond_katana": "Diamond Katana",
+
+  "text.autoconfig.vanilla-katanas.option.enableExtraMaterials": "Extra Vanilla Material Katanas",
+  "text.autoconfig.vanilla-katanas.option.durabilityModifier": "Katana Durability Modifier"
+
+
+}

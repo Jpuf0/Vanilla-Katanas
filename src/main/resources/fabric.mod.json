@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillakatanas",
+  "version": "${version}",
+  "name": "VanillaKatanas",
+  "description": "Adds a ton of new Katanas to the game!",
+  "authors": [
+    "Jpuf"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/vanilla-katanas/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.jpuf.vk.VanillaKatanas"
+    ],
+    "modmenu": [
+      "xyz.jpuf.vk.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "VanillaKatanas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}

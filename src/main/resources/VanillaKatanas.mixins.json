@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.jpuf.vk.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemGroupAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
